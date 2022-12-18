@@ -1,15 +1,44 @@
-.header {
-	top:20px;
+html, body{
+    margin: 0; 
+    padding: 0;
+    height: 100%;
+    min-width: 330px;
 }
-
-.main {
-	padding-top:120px;
+header {
+    width:100%;
+    margin: 0 auto;
+    background-color: rgb(224, 235, 245);;
+    text-align: center;
+    
+    height: 1.3em;
 }
-
-.posLeft {
-	margin-left:-60%;
+ul.hr {
+    margin: 0;
+    padding: 0;
+   }
+ul.hr li {
+    display: inline;
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 1.2em;
+   }
+main{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding-left: 10px;
+    border: 1px solid black;
 }
-
-.posCenter {
-	margin-left:40%;
+.h1_center {
+    text-align: center;
+}
+.footer_parent {
+    background-color: rgb(224, 235, 245);
+    margin: 0;
+    padding: 0;
+}
+.footer_child {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
 }
