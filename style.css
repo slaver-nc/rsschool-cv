@@ -1,0 +1,44 @@
+html, body{
+    margin: 0; 
+    padding: 0;
+    height: 100%;
+    min-width: 330px;
+}
+header {
+    width:100%;
+    margin: 0 auto;
+    background-color: rgb(224, 235, 245);;
+    text-align: center;
+    
+    height: 1.3em;
+}
+ul.hr {
+    margin: 0;
+    padding: 0;
+   }
+ul.hr li {
+    display: inline;
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 1.2em;
+   }
+main{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+.h1_center {
+    text-align: center;
+}
+.footer_parent {
+    background-color: rgb(224, 235, 245);
+    margin: 0;
+    padding: 0;
+}
+.footer_child {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
